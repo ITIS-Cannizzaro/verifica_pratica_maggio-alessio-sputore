@@ -17,7 +17,7 @@ public class ListaNumeri extends JFrame implements ActionListener {
 	JButton Rimuovi=new JButton("Rimuovi");
 	JButton Stampa=new JButton("Stampa");
 	
-	ArrayList lista=new ArrayList();
+	ArrayList lista=new ArrayList();// La variabile "lista" è dichiarata come un'ArrayList vuoto, Successivamente la inizializzi nel metodo costruttore di nuovo come "this.lista=lista", questo crea confusione al compilatore.
 
 	public ListaNumeri() {
 		super("Lista ordinata di numeri.");

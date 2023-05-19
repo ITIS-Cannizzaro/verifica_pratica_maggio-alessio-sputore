@@ -8,3 +8,4 @@ public static void main (String [] args) {
 	ListaNumeri listanumeri=new ListaNumeri();
 }
 }
+// potrebbe andare bene anche se utilizzando un metodo TetxArea() avresti visualizzato il contenuto dell'array nella GUI e non nella console!
